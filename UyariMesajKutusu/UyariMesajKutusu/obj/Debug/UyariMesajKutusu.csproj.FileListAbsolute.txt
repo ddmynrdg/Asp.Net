@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\UyariMesajKutusu\UyariMesajKutusu\bin\UyariMesajKutusu.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\UyariMesajKutusu\UyariMesajKutusu\bin\UyariMesajKutusu.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\UyariMesajKutusu\UyariMesajKutusu\obj\Debug\UyariMesajKutusu.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\UyariMesajKutusu\UyariMesajKutusu\obj\Debug\UyariMesajKutusu.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\UyariMesajKutusu\UyariMesajKutusu\obj\Debug\UyariMesajKutusu.pdb

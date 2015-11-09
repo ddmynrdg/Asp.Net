@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DetailsView\DetailsView\bin\DetailsView.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DetailsView\DetailsView\bin\DetailsView.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DetailsView\DetailsView\obj\Debug\DetailsView.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DetailsView\DetailsView\obj\Debug\DetailsView.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DetailsView\DetailsView\obj\Debug\DetailsView.pdb

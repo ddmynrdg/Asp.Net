@@ -1,0 +1,7 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\bin\EntityDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\bin\EntityDataSource.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\bin\EntityFramework.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\bin\EntityFramework.xml
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\obj\Debug\EntityDataSource.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\obj\Debug\EntityDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityDataSource\EntityDataSource\obj\Debug\EntityDataSource.pdb

@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Uyelik\Uyelik\bin\Uyelik.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Uyelik\Uyelik\bin\Uyelik.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Uyelik\Uyelik\obj\Debug\Uyelik.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Uyelik\Uyelik\obj\Debug\Uyelik.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Uyelik\Uyelik\obj\Debug\Uyelik.pdb

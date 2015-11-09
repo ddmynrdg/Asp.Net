@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<urunler>
+  <urun>
+    <barkod>1</barkod>
+    <ad>Beyaz Peynir</ad>
+    <kategori>Yiyecek</kategori>
+    <adet>100</adet>
+  </urun>
+  <urun>
+    <barkod>2</barkod>
+    <ad>Zeytin</ad>
+    <kategori>Yiyecek</kategori>
+    <adet>120</adet>
+  </urun>
+  <urun>
+    <barkod>3</barkod>
+    <ad>Ekmek</ad>
+    <kategori>Yiyecek</kategori>
+    <adet>30</adet>
+  </urun>
+</urunler>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Kategoriler>
+  <Kategori Deger = "1" Ad: "Bilgisayar" />
+  <Kategori Deger = "2" Ad: "Ev Elektroniği" />
+  <Kategori Deger = "3" Ad: "Giyim" />
+  <Kategori Deger = "4" Ad: "Takı" />
+  <Kategori Deger = "5" Ad: "Telefon" />
+</Kategoriler>

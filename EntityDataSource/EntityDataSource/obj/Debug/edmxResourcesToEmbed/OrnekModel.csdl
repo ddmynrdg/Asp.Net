@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AspNetOrnekModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="AspNetOrnekEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="IsIlani" EntityType="AspNetOrnekModel.IsIlani" />
+  </EntityContainer>
+  <EntityType Name="IsIlani">
+    <Key>
+      <PropertyRef Name="IsIlaniId" />
+    </Key>
+    <Property Name="IsIlaniId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Icerik" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YyinlamaTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BitisTarihi" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CompareValidator1\CompareValidator1\bin\CompareValidator1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CompareValidator1\CompareValidator1\bin\CompareValidator1.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CompareValidator1\CompareValidator1\obj\Debug\CompareValidator1.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CompareValidator1\CompareValidator1\obj\Debug\CompareValidator1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CompareValidator1\CompareValidator1\obj\Debug\CompareValidator1.pdb

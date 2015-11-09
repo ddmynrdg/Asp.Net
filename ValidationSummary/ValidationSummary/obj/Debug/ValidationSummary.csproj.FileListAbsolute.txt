@@ -1,0 +1,4 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ValidationSummary\ValidationSummary\bin\ValidationSummary.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ValidationSummary\ValidationSummary\bin\ValidationSummary.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ValidationSummary\ValidationSummary\obj\Debug\ValidationSummary.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ValidationSummary\ValidationSummary\obj\Debug\ValidationSummary.pdb

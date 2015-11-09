@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\NavigationMenu\NavigationMenu\bin\NavigationMenu.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\NavigationMenu\NavigationMenu\bin\NavigationMenu.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\NavigationMenu\NavigationMenu\obj\Debug\NavigationMenu.pdb

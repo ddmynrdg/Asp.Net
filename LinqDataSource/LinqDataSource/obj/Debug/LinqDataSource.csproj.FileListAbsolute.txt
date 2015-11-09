@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LinqDataSource\LinqDataSource\bin\LinqDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LinqDataSource\LinqDataSource\bin\LinqDataSource.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LinqDataSource\LinqDataSource\obj\Debug\LinqDataSource.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LinqDataSource\LinqDataSource\obj\Debug\LinqDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LinqDataSource\LinqDataSource\obj\Debug\LinqDataSource.pdb

@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Repeater\Repeater\bin\Repeater.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Repeater\Repeater\bin\Repeater.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Repeater\Repeater\obj\Debug\Repeater.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Repeater\Repeater\obj\Debug\Repeater.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Repeater\Repeater\obj\Debug\Repeater.pdb

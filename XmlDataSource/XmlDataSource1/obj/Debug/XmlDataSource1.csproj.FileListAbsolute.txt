@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\XmlDataSource1\XmlDataSource1\bin\XmlDataSource1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\XmlDataSource1\XmlDataSource1\bin\XmlDataSource1.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\XmlDataSource1\XmlDataSource1\obj\Debug\XmlDataSource1.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\XmlDataSource1\XmlDataSource1\obj\Debug\XmlDataSource1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\XmlDataSource1\XmlDataSource1\obj\Debug\XmlDataSource1.pdb

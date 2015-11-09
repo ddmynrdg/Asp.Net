@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AlistirmalarUnit4\AlistirmalarUnit4\bin\AlistirmalarUnit4.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AlistirmalarUnit4\AlistirmalarUnit4\bin\AlistirmalarUnit4.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AlistirmalarUnit4\AlistirmalarUnit4\obj\Debug\AlistirmalarUnit4.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AlistirmalarUnit4\AlistirmalarUnit4\obj\Debug\AlistirmalarUnit4.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AlistirmalarUnit4\AlistirmalarUnit4\obj\Debug\AlistirmalarUnit4.pdb

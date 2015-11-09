@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\TarihFormatlama\TarihFormatlama\bin\TarihFormatlama.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\TarihFormatlama\TarihFormatlama\bin\TarihFormatlama.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\TarihFormatlama\TarihFormatlama\obj\Debug\TarihFormatlama.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\TarihFormatlama\TarihFormatlama\obj\Debug\TarihFormatlama.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\TarihFormatlama\TarihFormatlama\obj\Debug\TarihFormatlama.pdb

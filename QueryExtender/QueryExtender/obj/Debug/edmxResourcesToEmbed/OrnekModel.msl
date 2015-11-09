@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AspNetOrnekModelStoreContainer" CdmEntityContainer="AspNetOrnekEntities">
+    <EntitySetMapping Name="IsIlani">
+      <EntityTypeMapping TypeName="AspNetOrnekModel.IsIlani">
+        <MappingFragment StoreEntitySet="IsIlani">
+          <ScalarProperty Name="IsIlaniId" ColumnName="IsIlaniId" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="YayinlamaTarihi" ColumnName="YayinlamaTarihi" />
+          <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+          <ScalarProperty Name="YayindaMi" ColumnName="YayindaMi" />
+          <ScalarProperty Name="FirmaResim" ColumnName="FirmaResim" />
+          <ScalarProperty Name="FirmaAdi" ColumnName="FirmaAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

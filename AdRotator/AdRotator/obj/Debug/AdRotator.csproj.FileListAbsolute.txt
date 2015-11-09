@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AdRotator\AdRotator\bin\AdRotator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AdRotator\AdRotator\bin\AdRotator.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AdRotator\AdRotator\obj\Debug\AdRotator.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AdRotator\AdRotator\obj\Debug\AdRotator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\AdRotator\AdRotator\obj\Debug\AdRotator.pdb

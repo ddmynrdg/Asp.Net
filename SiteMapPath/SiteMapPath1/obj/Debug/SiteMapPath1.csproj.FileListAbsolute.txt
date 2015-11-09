@@ -1,0 +1,4 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SiteMapPath1\SiteMapPath1\bin\SiteMapPath1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SiteMapPath1\SiteMapPath1\bin\SiteMapPath1.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SiteMapPath1\SiteMapPath1\obj\Debug\SiteMapPath1.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SiteMapPath1\SiteMapPath1\obj\Debug\SiteMapPath1.pdb

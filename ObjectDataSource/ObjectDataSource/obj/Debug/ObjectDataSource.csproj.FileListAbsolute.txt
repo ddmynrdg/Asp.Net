@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ObjectDataSource\ObjectDataSource\bin\ObjectDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ObjectDataSource\ObjectDataSource\bin\ObjectDataSource.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ObjectDataSource\ObjectDataSource\obj\Debug\ObjectDataSource.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ObjectDataSource\ObjectDataSource\obj\Debug\ObjectDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ObjectDataSource\ObjectDataSource\obj\Debug\ObjectDataSource.pdb

@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EpostaGonderme\EpostaGonderme\bin\EpostaGonderme.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EpostaGonderme\EpostaGonderme\bin\EpostaGonderme.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EpostaGonderme\EpostaGonderme\obj\Debug\EpostaGonderme.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EpostaGonderme\EpostaGonderme\obj\Debug\EpostaGonderme.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EpostaGonderme\EpostaGonderme\obj\Debug\EpostaGonderme.pdb

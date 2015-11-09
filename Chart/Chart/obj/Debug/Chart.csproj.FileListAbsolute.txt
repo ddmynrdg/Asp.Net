@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Chart\Chart\bin\Chart.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Chart\Chart\bin\Chart.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Chart\Chart\obj\Debug\Chart.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Chart\Chart\obj\Debug\Chart.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Chart\Chart\obj\Debug\Chart.pdb

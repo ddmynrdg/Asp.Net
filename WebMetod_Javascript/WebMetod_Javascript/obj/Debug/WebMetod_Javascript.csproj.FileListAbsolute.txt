@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\WebMetod_Javascript\WebMetod_Javascript\bin\WebMetod_Javascript.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\WebMetod_Javascript\WebMetod_Javascript\bin\WebMetod_Javascript.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\WebMetod_Javascript\WebMetod_Javascript\obj\Debug\WebMetod_Javascript.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\WebMetod_Javascript\WebMetod_Javascript\obj\Debug\WebMetod_Javascript.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\WebMetod_Javascript\WebMetod_Javascript\obj\Debug\WebMetod_Javascript.pdb

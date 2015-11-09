@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CustomValidator\CustomValidator\bin\CustomValidator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CustomValidator\CustomValidator\bin\CustomValidator.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CustomValidator\CustomValidator\obj\Debug\CustomValidator.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CustomValidator\CustomValidator\obj\Debug\CustomValidator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CustomValidator\CustomValidator\obj\Debug\CustomValidator.pdb

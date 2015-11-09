@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SqlDataSource\SqlDataSource\bin\SqlDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SqlDataSource\SqlDataSource\bin\SqlDataSource.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SqlDataSource\SqlDataSource\obj\Debug\SqlDataSource.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SqlDataSource\SqlDataSource\obj\Debug\SqlDataSource.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SqlDataSource\SqlDataSource\obj\Debug\SqlDataSource.pdb

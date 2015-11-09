@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\uyariMesaji\uyariMesaji\bin\uyariMesaji.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\uyariMesaji\uyariMesaji\bin\uyariMesaji.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\uyariMesaji\uyariMesaji\obj\Debug\uyariMesaji.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\uyariMesaji\uyariMesaji\obj\Debug\uyariMesaji.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\uyariMesaji\uyariMesaji\obj\Debug\uyariMesaji.csprojResolveAssemblyReference.cache

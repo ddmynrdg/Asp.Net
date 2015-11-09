@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\FormView\FormView\bin\FormView.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\FormView\FormView\bin\FormView.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\FormView\FormView\obj\Debug\FormView.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\FormView\FormView\obj\Debug\FormView.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\FormView\FormView\obj\Debug\FormView.pdb

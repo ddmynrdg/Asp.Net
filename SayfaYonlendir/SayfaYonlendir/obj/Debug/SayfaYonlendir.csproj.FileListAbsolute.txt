@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SayfaYonlendir\SayfaYonlendir\bin\SayfaYonlendir.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SayfaYonlendir\SayfaYonlendir\bin\SayfaYonlendir.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SayfaYonlendir\SayfaYonlendir\obj\Debug\SayfaYonlendir.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SayfaYonlendir\SayfaYonlendir\obj\Debug\SayfaYonlendir.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\SayfaYonlendir\SayfaYonlendir\obj\Debug\SayfaYonlendir.pdb

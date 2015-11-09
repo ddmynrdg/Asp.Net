@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataPager\DataPager\bin\DataPager.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataPager\DataPager\bin\DataPager.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataPager\DataPager\obj\Debug\DataPager.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataPager\DataPager\obj\Debug\DataPager.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataPager\DataPager\obj\Debug\DataPager.pdb

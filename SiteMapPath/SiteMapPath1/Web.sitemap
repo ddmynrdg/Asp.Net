@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Anasayfa.aspx" title="Anasayfa"  description="">
+    <siteMapNode url="Alisveris.aspx" title="Alışveriş"  description="">
+      <siteMapNode url="Bilgisayar.aspx" title="Bilgisayar"  description=""/>
+      <siteMapNode url="Telefon.aspx" title="Telefon"  description="">
+        <siteMapNode url="Modeller.aspx" title="Modeller"  description="">
+          <siteMapNode url="Samsung.aspx" title="Samsung"  description="">
+            <siteMapNode url="GalaxyMini.aspx" title="Galaxy Mini"  description="">
+              <siteMapNode url="Urun.aspx" title="İlan 1"  description=""></siteMapNode>
+              <siteMapNode url="" title="İlan 2"  description=""></siteMapNode>
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

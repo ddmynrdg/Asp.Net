@@ -1,0 +1,4 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\KontrolYazisiDgistirme\KontrolYazisiDgistirme\bin\KontrolYazisiDgistirme.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\KontrolYazisiDgistirme\KontrolYazisiDgistirme\bin\KontrolYazisiDgistirme.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\KontrolYazisiDgistirme\KontrolYazisiDgistirme\obj\Debug\KontrolYazisiDgistirme.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\KontrolYazisiDgistirme\KontrolYazisiDgistirme\obj\Debug\KontrolYazisiDgistirme.pdb

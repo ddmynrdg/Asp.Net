@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\RegularExpressionValidator\RegularExpressionValidator\bin\RegularExpressionValidator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\RegularExpressionValidator\RegularExpressionValidator\bin\RegularExpressionValidator.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\RegularExpressionValidator\RegularExpressionValidator\obj\Debug\RegularExpressionValidator.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\RegularExpressionValidator\RegularExpressionValidator\obj\Debug\RegularExpressionValidator.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\RegularExpressionValidator\RegularExpressionValidator\obj\Debug\RegularExpressionValidator.pdb

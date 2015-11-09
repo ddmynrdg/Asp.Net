@@ -1,0 +1,7 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\bin\QueryExtender.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\bin\QueryExtender.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\bin\EntityFramework.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\bin\EntityFramework.xml
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\obj\Debug\QueryExtender.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\obj\Debug\QueryExtender.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\QueryExtender\QueryExtender\obj\Debug\QueryExtender.pdb

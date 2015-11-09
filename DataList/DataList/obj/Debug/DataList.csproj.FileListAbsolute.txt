@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataList\DataList\bin\DataList.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataList\DataList\bin\DataList.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataList\DataList\obj\Debug\DataList.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataList\DataList\obj\Debug\DataList.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\DataList\DataList\obj\Debug\DataList.csprojResolveAssemblyReference.cache
