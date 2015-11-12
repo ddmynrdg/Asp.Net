@@ -1,0 +1,7 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\obj\Debug\EntityLINQExercises.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\bin\EntityLINQExercises.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\bin\EntityLINQExercises.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\bin\EntityFramework.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\bin\EntityFramework.xml
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\obj\Debug\EntityLINQExercises.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\EntityLINQExercises\EntityLINQExercises\obj\Debug\EntityLINQExercises.pdb

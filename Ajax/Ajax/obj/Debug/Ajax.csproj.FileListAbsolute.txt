@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Ajax\Ajax\bin\Ajax.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Ajax\Ajax\bin\Ajax.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Ajax\Ajax\obj\Debug\Ajax.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Ajax\Ajax\obj\Debug\Ajax.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Ajax\Ajax\obj\Debug\Ajax.pdb

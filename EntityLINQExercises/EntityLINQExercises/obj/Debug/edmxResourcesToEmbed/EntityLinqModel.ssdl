@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aspNetdenemeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="aspNetdenemeModelStoreContainer">
+    <EntitySet Name="Kategori" EntityType="aspNetdenemeModel.Store.Kategori" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sepet" EntityType="aspNetdenemeModel.Store.Sepet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Siparis" EntityType="aspNetdenemeModel.Store.Siparis" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SiparisUrun" EntityType="aspNetdenemeModel.Store.SiparisUrun" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Urun" EntityType="aspNetdenemeModel.Store.Urun" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Uye" EntityType="aspNetdenemeModel.Store.Uye" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Sepet_Urun" Association="aspNetdenemeModel.Store.FK_Sepet_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sepet_Uye" Association="aspNetdenemeModel.Store.FK_Sepet_Uye">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_Musteri" Association="aspNetdenemeModel.Store.FK_siparis_Musteri">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparisdetay_siparis" Association="aspNetdenemeModel.Store.FK_siparisdetay_siparis">
+      <End Role="Siparis" EntitySet="Siparis" />
+      <End Role="SiparisUrun" EntitySet="SiparisUrun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SiparisUrun_Urun" Association="aspNetdenemeModel.Store.FK_SiparisUrun_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="SiparisUrun" EntitySet="SiparisUrun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_urun_kategori" Association="aspNetdenemeModel.Store.FK_urun_kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="KatagoriId" />
+    </Key>
+    <Property Name="KatagoriId" Type="int" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sepet">
+    <Key>
+      <PropertyRef Name="SepetId" />
+    </Key>
+    <Property Name="SepetId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UyeId" Type="int" Nullable="false" />
+    <Property Name="UrunId" Type="int" Nullable="false" />
+    <Property Name="Adet" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Siparis">
+    <Key>
+      <PropertyRef Name="SiparisId" />
+    </Key>
+    <Property Name="SiparisId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UyeId" Type="int" Nullable="false" />
+    <Property Name="SiparisDurumTip" Type="int" Nullable="false" />
+    <Property Name="Tarih" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SiparisUrun">
+    <Key>
+      <PropertyRef Name="SiparisUrunId" />
+    </Key>
+    <Property Name="SiparisUrunId" Type="int" Nullable="false" />
+    <Property Name="SiparisId" Type="int" Nullable="false" />
+    <Property Name="UrunId" Type="int" Nullable="false" />
+    <Property Name="Adet" Type="int" Nullable="false" />
+    <Property Name="Fiyat" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriId" Type="int" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="fiyat" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Uye">
+    <Key>
+      <PropertyRef Name="UyeId" />
+    </Key>
+    <Property Name="UyeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Soyad" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Eposta" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Sepet_Urun">
+    <End Role="Urun" Type="aspNetdenemeModel.Store.Urun" Multiplicity="1" />
+    <End Role="Sepet" Type="aspNetdenemeModel.Store.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sepet_Uye">
+    <End Role="Uye" Type="aspNetdenemeModel.Store.Uye" Multiplicity="1" />
+    <End Role="Sepet" Type="aspNetdenemeModel.Store.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="UyeId" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="UyeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_Musteri">
+    <End Role="Uye" Type="aspNetdenemeModel.Store.Uye" Multiplicity="1" />
+    <End Role="Siparis" Type="aspNetdenemeModel.Store.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="UyeId" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="UyeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparisdetay_siparis">
+    <End Role="Siparis" Type="aspNetdenemeModel.Store.Siparis" Multiplicity="1" />
+    <End Role="SiparisUrun" Type="aspNetdenemeModel.Store.SiparisUrun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Siparis">
+        <PropertyRef Name="SiparisId" />
+      </Principal>
+      <Dependent Role="SiparisUrun">
+        <PropertyRef Name="SiparisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SiparisUrun_Urun">
+    <End Role="Urun" Type="aspNetdenemeModel.Store.Urun" Multiplicity="1" />
+    <End Role="SiparisUrun" Type="aspNetdenemeModel.Store.SiparisUrun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="SiparisUrun">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_urun_kategori">
+    <End Role="Kategori" Type="aspNetdenemeModel.Store.Kategori" Multiplicity="1" />
+    <End Role="Urun" Type="aspNetdenemeModel.Store.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="KatagoriId" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="kategoriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

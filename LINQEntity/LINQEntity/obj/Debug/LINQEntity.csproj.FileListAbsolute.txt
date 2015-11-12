@@ -1,0 +1,7 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\bin\LINQEntity.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\bin\LINQEntity.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\bin\EntityFramework.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\bin\EntityFramework.xml
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\obj\Debug\LINQEntity.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\obj\Debug\LINQEntity.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQEntity\LINQEntity\obj\Debug\LINQEntity.pdb

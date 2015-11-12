@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Cookie\Cookie\bin\Cookie.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Cookie\Cookie\bin\Cookie.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Cookie\Cookie\obj\Debug\Cookie.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Cookie\Cookie\obj\Debug\Cookie.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Cookie\Cookie\obj\Debug\Cookie.pdb

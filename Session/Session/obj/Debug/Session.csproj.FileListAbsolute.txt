@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Session\Session\bin\Session.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Session\Session\bin\Session.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Session\Session\obj\Debug\Session.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Session\Session\obj\Debug\Session.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Session\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache

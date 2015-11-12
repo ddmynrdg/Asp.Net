@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aspNetdenemeModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="aspNetdenemeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Kategori" EntityType="aspNetdenemeModel.Kategori" />
+    <EntitySet Name="Sepet" EntityType="aspNetdenemeModel.Sepet" />
+    <EntitySet Name="Siparis" EntityType="aspNetdenemeModel.Siparis" />
+    <EntitySet Name="SiparisUrun" EntityType="aspNetdenemeModel.SiparisUrun" />
+    <EntitySet Name="Urun" EntityType="aspNetdenemeModel.Urun" />
+    <EntitySet Name="Uye" EntityType="aspNetdenemeModel.Uye" />
+    <AssociationSet Name="FK_urun_kategori" Association="aspNetdenemeModel.FK_urun_kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sepet_Urun" Association="aspNetdenemeModel.FK_Sepet_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sepet_Uye" Association="aspNetdenemeModel.FK_Sepet_Uye">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparis_Musteri" Association="aspNetdenemeModel.FK_siparis_Musteri">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_siparisdetay_siparis" Association="aspNetdenemeModel.FK_siparisdetay_siparis">
+      <End Role="Siparis" EntitySet="Siparis" />
+      <End Role="SiparisUrun" EntitySet="SiparisUrun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SiparisUrun_Urun" Association="aspNetdenemeModel.FK_SiparisUrun_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="SiparisUrun" EntitySet="SiparisUrun" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="KatagoriId" />
+    </Key>
+    <Property Name="KatagoriId" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Urun" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Kategori" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Sepet">
+    <Key>
+      <PropertyRef Name="SepetId" />
+    </Key>
+    <Property Name="SepetId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UyeId" Type="Int32" Nullable="false" />
+    <Property Name="UrunId" Type="Int32" Nullable="false" />
+    <Property Name="Adet" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Urun" Relationship="aspNetdenemeModel.FK_Sepet_Urun" FromRole="Sepet" ToRole="Urun" />
+    <NavigationProperty Name="Uye" Relationship="aspNetdenemeModel.FK_Sepet_Uye" FromRole="Sepet" ToRole="Uye" />
+  </EntityType>
+  <EntityType Name="Siparis">
+    <Key>
+      <PropertyRef Name="SiparisId" />
+    </Key>
+    <Property Name="SiparisId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UyeId" Type="Int32" Nullable="false" />
+    <Property Name="SiparisDurumTip" Type="Int32" Nullable="false" />
+    <Property Name="Tarih" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Uye" Relationship="aspNetdenemeModel.FK_siparis_Musteri" FromRole="Siparis" ToRole="Uye" />
+    <NavigationProperty Name="SiparisUrun" Relationship="aspNetdenemeModel.FK_siparisdetay_siparis" FromRole="Siparis" ToRole="SiparisUrun" />
+  </EntityType>
+  <EntityType Name="SiparisUrun">
+    <Key>
+      <PropertyRef Name="SiparisUrunId" />
+    </Key>
+    <Property Name="SiparisUrunId" Type="Int32" Nullable="false" />
+    <Property Name="SiparisId" Type="Int32" Nullable="false" />
+    <Property Name="UrunId" Type="Int32" Nullable="false" />
+    <Property Name="Adet" Type="Int32" Nullable="false" />
+    <Property Name="Fiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Siparis" Relationship="aspNetdenemeModel.FK_siparisdetay_siparis" FromRole="SiparisUrun" ToRole="Siparis" />
+    <NavigationProperty Name="Urun" Relationship="aspNetdenemeModel.FK_SiparisUrun_Urun" FromRole="SiparisUrun" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriId" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="fiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Kategori" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Urun" ToRole="Kategori" />
+    <NavigationProperty Name="Sepet" Relationship="aspNetdenemeModel.FK_Sepet_Urun" FromRole="Urun" ToRole="Sepet" />
+    <NavigationProperty Name="SiparisUrun" Relationship="aspNetdenemeModel.FK_SiparisUrun_Urun" FromRole="Urun" ToRole="SiparisUrun" />
+  </EntityType>
+  <EntityType Name="Uye">
+    <Key>
+      <PropertyRef Name="UyeId" />
+    </Key>
+    <Property Name="UyeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Soyad" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Eposta" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sepet" Relationship="aspNetdenemeModel.FK_Sepet_Uye" FromRole="Uye" ToRole="Sepet" />
+    <NavigationProperty Name="Siparis" Relationship="aspNetdenemeModel.FK_siparis_Musteri" FromRole="Uye" ToRole="Siparis" />
+  </EntityType>
+  <Association Name="FK_urun_kategori">
+    <End Role="Kategori" Type="aspNetdenemeModel.Kategori" Multiplicity="1" />
+    <End Role="Urun" Type="aspNetdenemeModel.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="KatagoriId" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="kategoriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sepet_Urun">
+    <End Role="Urun" Type="aspNetdenemeModel.Urun" Multiplicity="1" />
+    <End Role="Sepet" Type="aspNetdenemeModel.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sepet_Uye">
+    <End Role="Uye" Type="aspNetdenemeModel.Uye" Multiplicity="1" />
+    <End Role="Sepet" Type="aspNetdenemeModel.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="UyeId" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="UyeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparis_Musteri">
+    <End Role="Uye" Type="aspNetdenemeModel.Uye" Multiplicity="1" />
+    <End Role="Siparis" Type="aspNetdenemeModel.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="UyeId" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="UyeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_siparisdetay_siparis">
+    <End Role="Siparis" Type="aspNetdenemeModel.Siparis" Multiplicity="1" />
+    <End Role="SiparisUrun" Type="aspNetdenemeModel.SiparisUrun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Siparis">
+        <PropertyRef Name="SiparisId" />
+      </Principal>
+      <Dependent Role="SiparisUrun">
+        <PropertyRef Name="SiparisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SiparisUrun_Urun">
+    <End Role="Urun" Type="aspNetdenemeModel.Urun" Multiplicity="1" />
+    <End Role="SiparisUrun" Type="aspNetdenemeModel.SiparisUrun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunId" />
+      </Principal>
+      <Dependent Role="SiparisUrun">
+        <PropertyRef Name="UrunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

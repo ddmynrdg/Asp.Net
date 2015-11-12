@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Login_Member\Login_Member\bin\Login_Member.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Login_Member\Login_Member\bin\Login_Member.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Login_Member\Login_Member\obj\Debug\Login_Member.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Login_Member\Login_Member\obj\Debug\Login_Member.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Login_Member\Login_Member\obj\Debug\Login_Member.pdb

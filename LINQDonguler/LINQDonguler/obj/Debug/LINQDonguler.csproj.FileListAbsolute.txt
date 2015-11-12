@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQDonguler\LINQDonguler\bin\LINQDonguler.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQDonguler\LINQDonguler\bin\LINQDonguler.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQDonguler\LINQDonguler\obj\Debug\LINQDonguler.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQDonguler\LINQDonguler\obj\Debug\LINQDonguler.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\LINQDonguler\LINQDonguler\obj\Debug\LINQDonguler.pdb

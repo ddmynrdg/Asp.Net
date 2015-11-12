@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a914543db1cf4c88ae8839b6dc148780" Name="Diagram1">
+        <EntityTypeShape EntityType="aspNetdenemeModel.Kategori" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aspNetdenemeModel.Sepet" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aspNetdenemeModel.Siparis" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aspNetdenemeModel.SiparisUrun" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aspNetdenemeModel.Urun" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aspNetdenemeModel.Uye" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_urun_kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_Sepet_Urun" ManuallyRouted="false" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_Sepet_Uye" ManuallyRouted="false" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_siparis_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_siparisdetay_siparis" ManuallyRouted="false" />
+        <AssociationConnector Association="aspNetdenemeModel.FK_SiparisUrun_Urun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
