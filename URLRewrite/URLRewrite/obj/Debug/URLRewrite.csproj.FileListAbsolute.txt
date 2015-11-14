@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\URLRewrite\URLRewrite\bin\URLRewrite.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\URLRewrite\URLRewrite\bin\URLRewrite.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\URLRewrite\URLRewrite\obj\Debug\URLRewrite.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\URLRewrite\URLRewrite\obj\Debug\URLRewrite.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\URLRewrite\URLRewrite\obj\Debug\URLRewrite.pdb

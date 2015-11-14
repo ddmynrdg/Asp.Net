@@ -1,0 +1,7 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\bin\ModelBinding.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\bin\ModelBinding.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\bin\EntityFramework.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\bin\EntityFramework.xml
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\obj\Debug\ModelBinding.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\obj\Debug\ModelBinding.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\ModelBinding\ModelBinding\obj\Debug\ModelBinding.pdb

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="aspNetdenemeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="aspNetdenemeModelStoreContainer">
+          <EntitySet Name="Kategori" EntityType="aspNetdenemeModel.Store.Kategori" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Urun" EntityType="aspNetdenemeModel.Store.Urun" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_urun_kategori" Association="aspNetdenemeModel.Store.FK_urun_kategori">
+            <End Role="Kategori" EntitySet="Kategori" />
+            <End Role="Urun" EntitySet="Urun" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Kategori">
+          <Key>
+            <PropertyRef Name="KatagoriId" />
+          </Key>
+          <Property Name="KatagoriId" Type="int" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Urun">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="kategoriId" Type="int" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="fiyat" Type="money" Nullable="false" />
+          <Property Name="stok" Type="int" />
+        </EntityType>
+        <Association Name="FK_urun_kategori">
+          <End Role="Kategori" Type="aspNetdenemeModel.Store.Kategori" Multiplicity="1" />
+          <End Role="Urun" Type="aspNetdenemeModel.Store.Urun" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategori">
+              <PropertyRef Name="KatagoriId" />
+            </Principal>
+            <Dependent Role="Urun">
+              <PropertyRef Name="kategoriId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="aspNetdenemeModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="aspNetdenemeEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Kategori" EntityType="aspNetdenemeModel.Kategori" />
+          <EntitySet Name="Urun" EntityType="aspNetdenemeModel.Urun" />
+          <AssociationSet Name="FK_urun_kategori" Association="aspNetdenemeModel.FK_urun_kategori">
+            <End Role="Kategori" EntitySet="Kategori" />
+            <End Role="Urun" EntitySet="Urun" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Kategori">
+          <Key>
+            <PropertyRef Name="KatagoriId" />
+          </Key>
+          <Property Name="KatagoriId" Type="Int32" Nullable="false" />
+          <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Urun" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Kategori" ToRole="Urun" />
+        </EntityType>
+        <EntityType Name="Urun">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="kategoriId" Type="Int32" Nullable="false" />
+          <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="fiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="stok" Type="Int32" />
+          <NavigationProperty Name="Kategori" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Urun" ToRole="Kategori" />
+        </EntityType>
+        <Association Name="FK_urun_kategori">
+          <End Role="Kategori" Type="aspNetdenemeModel.Kategori" Multiplicity="1" />
+          <End Role="Urun" Type="aspNetdenemeModel.Urun" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategori">
+              <PropertyRef Name="KatagoriId" />
+            </Principal>
+            <Dependent Role="Urun">
+              <PropertyRef Name="kategoriId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="aspNetdenemeModelStoreContainer" CdmEntityContainer="aspNetdenemeEntities">
+          <EntitySetMapping Name="Kategori">
+            <EntityTypeMapping TypeName="aspNetdenemeModel.Kategori">
+              <MappingFragment StoreEntitySet="Kategori">
+                <ScalarProperty Name="KatagoriId" ColumnName="KatagoriId" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Urun">
+            <EntityTypeMapping TypeName="aspNetdenemeModel.Urun">
+              <MappingFragment StoreEntitySet="Urun">
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+                <ScalarProperty Name="kategoriId" ColumnName="kategoriId" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+                <ScalarProperty Name="stok" ColumnName="stok" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

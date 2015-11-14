@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aspNetdenemeModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="aspNetdenemeEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Kategori" EntityType="aspNetdenemeModel.Kategori" />
+    <EntitySet Name="Urun" EntityType="aspNetdenemeModel.Urun" />
+    <AssociationSet Name="FK_urun_kategori" Association="aspNetdenemeModel.FK_urun_kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="KatagoriId" />
+    </Key>
+    <Property Name="KatagoriId" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Urun" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Kategori" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="UrunId" />
+    </Key>
+    <Property Name="UrunId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriId" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="fiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="stok" Type="Int32" />
+    <NavigationProperty Name="Kategori" Relationship="aspNetdenemeModel.FK_urun_kategori" FromRole="Urun" ToRole="Kategori" />
+  </EntityType>
+  <Association Name="FK_urun_kategori">
+    <End Role="Kategori" Type="aspNetdenemeModel.Kategori" Multiplicity="1" />
+    <End Role="Urun" Type="aspNetdenemeModel.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="KatagoriId" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="kategoriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

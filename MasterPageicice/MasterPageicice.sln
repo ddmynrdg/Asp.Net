@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPageicice", "MasterPageicice\MasterPageicice.csproj", "{E220507E-7A06-4948-A00C-269C83A8C08F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E220507E-7A06-4948-A00C-269C83A8C08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E220507E-7A06-4948-A00C-269C83A8C08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E220507E-7A06-4948-A00C-269C83A8C08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E220507E-7A06-4948-A00C-269C83A8C08F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

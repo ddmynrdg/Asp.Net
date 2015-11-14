@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Exercises.master.cs" Inherits="MasterPage.Exercises" %>
+
+<!DOCTYPE html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div contenteditable="true">
+            Kişisel Blogum
+            <a href="Default.aspx">Ana Sayfa</a> |
+            <a href="Hakkimizda.aspx">Hakkımızda</a> |
+            <a href="iletisim.aspx">Iletişim</a>
+        </div>
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

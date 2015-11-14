@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\StronglTypedDataControls\StronglTypedDataControls\bin\StronglTypedDataControls.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\StronglTypedDataControls\StronglTypedDataControls\bin\StronglTypedDataControls.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\StronglTypedDataControls\StronglTypedDataControls\obj\Debug\StronglTypedDataControls.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\StronglTypedDataControls\StronglTypedDataControls\obj\Debug\StronglTypedDataControls.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\StronglTypedDataControls\StronglTypedDataControls\obj\Debug\StronglTypedDataControls.pdb

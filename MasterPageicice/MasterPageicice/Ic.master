@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Ust.Master" AutoEventWireup="true" CodeBehind="Ic.master.cs" Inherits="MasterPageicice.Ic" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div style="margin:20px 20px 20px 20px;background-color:white; color:black;">
+        <asp:ContentPlaceHolder ID="cphIcerik" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

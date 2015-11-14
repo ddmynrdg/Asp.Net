@@ -1,0 +1,4 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\MasterPageicice\MasterPageicice\bin\MasterPageicice.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\MasterPageicice\MasterPageicice\bin\MasterPageicice.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\MasterPageicice\MasterPageicice\obj\Debug\MasterPageicice.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\MasterPageicice\MasterPageicice\obj\Debug\MasterPageicice.pdb
