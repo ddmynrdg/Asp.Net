@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CSS\CSS\bin\CSS.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CSS\CSS\bin\CSS.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CSS\CSS\obj\Debug\CSS.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CSS\CSS\obj\Debug\CSS.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\CSS\CSS\obj\Debug\CSS.csprojResolveAssemblyReference.cache

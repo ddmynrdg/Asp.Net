@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\JavascriptExc\JavascriptExc\bin\JavascriptExc.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\JavascriptExc\JavascriptExc\bin\JavascriptExc.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\JavascriptExc\JavascriptExc\obj\Debug\JavascriptExc.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\JavascriptExc\JavascriptExc\obj\Debug\JavascriptExc.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\JavascriptExc\JavascriptExc\obj\Debug\JavascriptExc.pdb

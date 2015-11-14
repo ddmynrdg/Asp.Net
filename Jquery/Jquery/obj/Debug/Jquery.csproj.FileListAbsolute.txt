@@ -1,0 +1,5 @@
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Jquery\Jquery\bin\Jquery.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Jquery\Jquery\bin\Jquery.pdb
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Jquery\Jquery\obj\Debug\Jquery.csprojResolveAssemblyReference.cache
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Jquery\Jquery\obj\Debug\Jquery.dll
+c:\users\didem_yanardag\documents\visual studio 2012\Projects\Jquery\Jquery\obj\Debug\Jquery.pdb

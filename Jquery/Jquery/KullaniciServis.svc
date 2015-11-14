@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Jquery.KullaniciServis" CodeBehind="KullaniciServis.svc.cs" %>

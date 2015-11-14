@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatmanliMimari", "KatmanliMimari\KatmanliMimari.csproj", "{0D8B97B8-1573-43A9-8919-85B8AAF43D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriKatmani", "VeriKatmani\VeriKatmani.csproj", "{4D285425-BFF5-4979-990E-D84C78DABA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsKatmani", "IsKatmani\IsKatmani.csproj", "{B2D9C0DA-A2FB-4FD1-9641-16CA534F8E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8B97B8-1573-43A9-8919-85B8AAF43D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8B97B8-1573-43A9-8919-85B8AAF43D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8B97B8-1573-43A9-8919-85B8AAF43D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8B97B8-1573-43A9-8919-85B8AAF43D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D285425-BFF5-4979-990E-D84C78DABA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D285425-BFF5-4979-990E-D84C78DABA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D285425-BFF5-4979-990E-D84C78DABA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D285425-BFF5-4979-990E-D84C78DABA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D9C0DA-A2FB-4FD1-9641-16CA534F8E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D9C0DA-A2FB-4FD1-9641-16CA534F8E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D9C0DA-A2FB-4FD1-9641-16CA534F8E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D9C0DA-A2FB-4FD1-9641-16CA534F8E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
